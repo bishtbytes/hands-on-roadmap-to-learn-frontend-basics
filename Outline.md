@@ -61,6 +61,7 @@
   - string
     - normal string
     - template string
+  - boolean
   - object
   - array
   - undefined
@@ -73,7 +74,22 @@
   - variations
     - arrow functions (newer and shorthand synatx)
     - normal function (older syntax, binding required at times)
+- javascript object
+  - object literal syntax
+  - create object using function call
+  - what is JSON
+  - printing object as string (JSON.stringify)
+  - parsing object from string (JSON.parse)
+  - passing to function and updating
+- short circuit OR
+- short circuit AND
+- nullish coalescing
+- optional chaining
 - arrays
+  - creation
+  - updation
+  - assignment
+  - passing to function and updating
 - for loops
   - for loop (imperative syntax)
   - for of loop
@@ -81,8 +97,11 @@
   - forEach
 - arrays functions
   - map
+  - reduce
   - filter
   - find
+  - every
+  - some
 - console.log and debugger
 - event handling
   - callback function
@@ -90,13 +109,6 @@
   - capturing of event (https://javascript.info/bubbling-and-capturing)
   - stopping bubbling (https://javascript.info/bubbling-and-capturing#stopping-bubbling)
   - event target property (https://javascript.info/bubbling-and-capturing#event-target)
-- javascript object
-  - object literal syntax
-  - create object using function call
-  - printing object as string (JSON.stringify)
-  - parsing object from string (JSON.parse)
-- short circuit OR and AND
-- nullish coalescing
 - synchronous vs asynchronous code (similar to with and without threads for parallel execution)
 - making an api call
   - CRUD operation
@@ -107,12 +119,12 @@
     - http client in vscode
     - curl
 - error handling
+- cookies
+- local storage
+- session storage
 - setTimeout
 - setInterval
 - function to wait for few seconds
-- local storage
-- session storage
-- cookies
 
 ### Good to know
 
@@ -127,6 +139,7 @@
   - all at once execution
 - event loop
 - new keyword
+- Object, Number, Date, String, Boolean
 - object reference (create same object multiple times)
 - this reference
 - call, bind and apply
