@@ -1,3 +1,56 @@
+## CSS
+
+### Must know
+
+- color
+- font size
+- background
+- border
+- margin
+- padding
+- box model
+- height & width
+- min - X & max - X
+- display
+- flex basics
+- grid (flex extended)
+- inline block (when?)
+- [specificity](./css-specificity.md)
+- apply to all
+- inheritance
+
+### Good to know
+
+- css variable
+- responsive design
+- print styles
+- css positioning
+  - static
+  - fixed
+  - sticky
+  - relative
+  - absolute
+- sibling selector
+- attribute selector
+- pseudo element
+  - after & before
+  - first-after & first-line
+  - selections
+- pseudo classes
+  - w.r.t anchor tag
+  - first-child, last-child
+  - nth-child
+  - not
+  - table of all
+- not()
+- has()
+
+### Can know
+
+- animation
+- transition
+- [repaint and reflow](./css-repaint-and-reflow.md)
+
 ## Javascript
 
 ### Must know
